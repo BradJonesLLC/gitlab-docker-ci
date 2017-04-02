@@ -16,9 +16,8 @@ And writing my own let me understand the tech, better. :-)
 
 The `Dockerfile` contains variables for specifying particular versions of Engine and Compose;
 you may need to adjust the Engine version in particular to match your cloud provider's
-current version. At time of writing, that was 1.9.1 for Docker Cloud, though 1.10+
-has been available for some time. You may need to fork and adjust the `Dockerfile`
-to meet your needs.
+current version. Releases and automated build images are tagged by GitLab core version and the
+Docker and Docker Compose versions available at that time.
 
 ### PHP-focused
 
